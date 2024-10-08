@@ -18,6 +18,7 @@ public class CommentController {
         this.commentService = commentService;
     }
 
+    /* feat#2 */
     // 1. 댓글 작성
     @PostMapping("/comments/{articleId}")
     public ResponseEntity<CommentUpdateResponseDTO> createComment(
